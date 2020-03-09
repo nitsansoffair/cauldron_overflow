@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d7fb218-9461-4202-9c4a-c4312be44d95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/cauldron_overflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cauldron_overflow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
       <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1YtmxxFBdWLEBsafCxyamSQTi13" />
@@ -81,22 +86,47 @@
       <option name="presentableId" value="Default" />
       <updated>1583770514670</updated>
       <workItem from="1583770516047" duration="157000" />
-      <workItem from="1583770694940" duration="278000" />
+      <workItem from="1583770694940" duration="1063000" />
+      <workItem from="1583771760302" duration="525000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1583770985157</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583770985157</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2032" y="144" key="#Plugins" timestamp="1583770714289">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
     <state x="2032" y="144" key="#Plugins/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1583770714289" />
-    <state x="2220" y="260" key="FileChooserDialogImpl" timestamp="1583770552465">
+    <state x="2065" y="99" key="CommitChangelistDialog2" timestamp="1583770984207">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
-    <state x="2220" y="260" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1583770552465" />
+    <state x="2065" y="99" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1583770984207" />
+    <state x="2220" y="260" key="FileChooserDialogImpl" timestamp="1583771757271">
+      <screen x="1600" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2220" y="260" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1583771757271" />
+    <state x="2295" y="398" key="Github.ShareDialog" timestamp="1583771044345">
+      <screen x="1600" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2295" y="398" key="Github.ShareDialog/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1583771044345" />
+    <state x="2207" y="319" key="NewPhpClassDialog" timestamp="1583771090223">
+      <screen x="1600" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2207" y="319" key="NewPhpClassDialog/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1583771090223" />
     <state x="1941" y="147" key="SettingsEditor" timestamp="1583770795652">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
